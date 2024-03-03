@@ -9,7 +9,7 @@ Save this repository in your home folder under the name "notebooks". This ensure
 
 ### Dataset
 
-The dataset used for this Thesis is a real-world Aero-engine Blade Anomaly Detection (AeBAD) dataset, consisting of two sub-datasets: the single-blade dataset (AeBAD-S) and the video anomaly detection dataset of blades (AeBAD-V).
+The dataset used for this Thesis is a real-world Aero-engine Blade Anomaly Detection (AeBAD) dataset (Zhang et al., 2023), consisting of two sub-datasets: the single-blade dataset (AeBAD-S) and the video anomaly detection dataset of blades (AeBAD-V).
 
 * AeBAD-S
 

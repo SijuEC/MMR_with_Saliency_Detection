@@ -41,9 +41,9 @@ Run the code in **03_MMR_with_saliency_guided_random_masking_AeBAD_V.ipynb** for
 **MMR/method_config/** folder contains the config files for the training and testing runs of this model. <br>
 **MMR/method_config/AeBAD_S/MMR.yaml** is relevant for training and testing this model on the AeBAD_S dataset. <br>
 **MMR/method_config/AeBAD_V/MMR.yaml** is relevant for training and testing this model on the AeBAD_V dataset. <br>
-Inside these yaml files **TRAIN.MMR.model_chkpt** in **MMR.yaml** is the path of above downloaded MAE model. **TRAIN.dataset_path** (TEST.dataset_path) is the path of data.<br>
+Inside these yaml files **TRAIN.MMR.model_chkpt** in **MMR.yaml** is the path of above downloaded MAE model. **TRAIN.dataset_path** and **TEST.dataset_path** are the path of data.<br>
 Set **Test.save_segmentation_images** as True or False to save processed image.<br>
-**Note that for AeBAD-V, we only evaluate the sample-level metric. The pixel-level metric is 0.**
+Note that for AeBAD-V, we only evaluate the sample-level metric. The pixel-level metric is 0.
 
 
 ## Acknowledgement

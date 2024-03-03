@@ -1,5 +1,7 @@
 AeBAD.zip
 AeBAD/
 mae_visualize_vit_base.pth
+log_MMR_AeBAD_S_54/
+log_MMR_AeBAD_V_54/
 __pycache__/
 .ipynb_checkpoints/

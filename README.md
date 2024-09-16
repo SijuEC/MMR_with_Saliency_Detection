@@ -1,6 +1,7 @@
 # Overview and Implentation of the Model
 
-This is an official PyTorch implementation of the Master's Dissertation "IN THE PURSUIT OF A NEW STATE-OF-THE-ART MODEL FOR ANOMALY LOCALIZATION WITH DOMAIN SHIFT". I would like to basically introduce the approach and the results. Next I will describe how this model can be implemented on a linux machine.
+This is an official PyTorch implementation of the Master's Dissertation "IN THE PURSUIT OF A NEW STATE-OF-THE-ART MODEL FOR ANOMALY LOCALIZATION WITH DOMAIN SHIFT". 
+I would like to introduce the approach and the results. Next I will describe how this model can be implemented on a linux machine.
 
 ### Overview
 This research takes the MMR model and adds a saliency detection step during the training phase. This step identifies the region of the image with the subject. The region with the subject and the background region are then masked separately by a pre-defined ratio. This has shown an improvement in the ability of the model to identify regions with anomalies than simply masking the whole image at one go.

@@ -1,11 +1,26 @@
 # IN THE PURSUIT OF A NEW STATE-OF-THE-ART MODEL FOR ANOMALY LOCALIZATION WITH DOMAIN SHIFT
 
 This is an official PyTorch implementation of the Master's Dissertation "IN THE PURSUIT OF A NEW STATE-OF-THE-ART MODEL FOR ANOMALY LOCALIZATION WITH DOMAIN SHIFT".
+
+### Results
+The distribution of the masked areas proportionally inside and outside bounding boxes using saliency detection led to an improvement of the detection of anomalies.
+
+The table below highlights the increase in performance of the new method, i.e. "MMR with Saliecy Guided Random Masking", as compared to the original MMR model in detecting images with anomalies.
+<p align="center">
+  <img src=assets/image/AUROC_performance.png width="60%">
+</p>
+
+The table below shows the increase in the performance of the new model with respect to the original model in identifying anomalous regions inside images.
+<p align="center">
+  <img src=assets/image/PRO_performance.png width="60%">
+</p>
+
+## Implementation
+
 <br>
 This code was implemented on a linux machine. It has to be edited to run on operating systems.
 <br>
 Save this repository in your home folder under the name "notebooks". This ensures that all the file paths in the config file of this program function properly.
-
 
 ### Dataset
 
@@ -46,18 +61,7 @@ Set **Test.save_segmentation_images** as True or False to save processed image.<
 Note that for AeBAD-V, we only evaluate the sample-level metric. The pixel-level metric is 0.
 
 
-### Results
-The distribution of the masked areas proportionally inside and outside bounding boxes using saliency detection led to an improvement of the detection of anomalies.
 
-The table below highlights the increase in performance of the new method, i.e. "MMR with Saliecy Guided Random Masking", as compared to the original MMR model in detecting images with anomalies.
-<p align="center">
-  <img src=assets/image/AUROC_performance.png width="60%">
-</p>
-
-The table below shows the increase in the performance of the new model with respect to the original model in identifying anomalous regions inside images.
-<p align="center">
-  <img src=assets/image/PRO_performance.png width="60%">
-</p>
 
 
 ## Acknowledgement

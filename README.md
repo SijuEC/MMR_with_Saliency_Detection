@@ -8,7 +8,7 @@ This research takes the MMR model and adds a saliency detection step during the 
 
 Below you can see a simple flow diagram of the model and a few examples of the anomaly detection model in action.
 <p align="center">
-  <img src=assets/image/Part_defect_demo.png width="60%">
+  <img src=assets/image/Part_defect_demo.png width="100%">
 </p>
 
 ### Results
@@ -16,12 +16,12 @@ The improvement in the performance of this model have been shown in the tables b
 
 This table highlights the increase in performance of the new method, i.e. "MMR with Saliecy Guided Random Masking", as compared to the original MMR model in detecting images with anomalies.
 <p align="center">
-  <img src=assets/image/AUROC_performance.png width="60%">
+  <img src=assets/image/AUROC_performance.png width="100%">
 </p>
 
 This table shows the increase in the performance of the new model with respect to the original model in identifying anomalous regions inside images.
 <p align="center">
-  <img src=assets/image/PRO_performance.png width="60%">
+  <img src=assets/image/PRO_performance.png width="100%">
 </p>
 
 ## Implementation

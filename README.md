@@ -49,15 +49,18 @@ Note that for AeBAD-V, we only evaluate the sample-level metric. The pixel-level
 ### Results
 The distribution of the masked areas proportionally inside and outside bounding boxes using saliency detection led to an improvement of the detection of anomalies.
 
+
 <p align="center">
   <img src=assets/image/AUROC_performance.png width="60%">
 </p>
-This table highlights the increase in performance of the new method, i.e. "MMR with Saliecy Guided Random Masking", as compared to the original MMR model in detecting images with anomalies.
+The above table highlights the increase in performance of the new method, i.e. "MMR with Saliecy Guided Random Masking", as compared to the original MMR model in detecting images with anomalies.
+
 
 <p align="center">
   <img src=assets/image/PRO_performance.png width="60%">
 </p>
-This table shows the increase in the performance of the new model with respect to the original model in identifying anomalous regions inside images.
+The above table shows the increase in the performance of the new model with respect to the original model in identifying anomalous regions inside images.
+
 
 
 ## Acknowledgement

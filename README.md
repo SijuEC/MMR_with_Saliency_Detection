@@ -5,6 +5,10 @@ I would like to introduce the approach and the results. Next I will describe how
 
 ### Overview
 This research takes the MMR model and adds a saliency detection step during the training phase. This step identifies the region of the image with the subject. The region with the subject and the background region are then masked separately by a pre-defined ratio. This has shown an improvement in the ability of the model to identify regions with anomalies than simply masking the whole image at one go.
+Below you can see a simple flow disgram of the model and a few examples of the anomaly detection model in action.
+<p align="center">
+  <img src=assets/image/Part_defect_demo.png width="60%">
+</p>
 
 ### Results
 The improvement in the performance of this model have been shown in the tables below.

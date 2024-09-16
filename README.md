@@ -20,9 +20,8 @@ This table shows the increase in the performance of the new model with respect t
 </p>
 
 ## Implementation
-
 <br>
-This code was implemented on a linux machine. It has to be edited to run on operating systems.
+This code was implemented on a linux machine. It has to be edited to run on other operating systems.
 <br>
 Save this repository in your home folder under the name "notebooks". This ensures that all the file paths in the config file of this program function properly.
 
